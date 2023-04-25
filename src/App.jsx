@@ -10,6 +10,9 @@ const Home = React.lazy(() => import("./screens/home"));
 const Service = React.lazy(() => import("./screens/service"));
 const Sparepart = React.lazy(() => import("./screens/sparepart"));
 const Cars = React.lazy(() => import("./screens/cars"));
+const ServiceSingle = React.lazy(() => import("./screens/serviceSingle"));
+const SparepartSingle = React.lazy(() => import("./screens/sparepartSingle"));
+const CarSingle = React.lazy(() => import("./screens/carSingle"));
 
 function App() {
   return (
@@ -62,6 +65,30 @@ function App() {
           element={
             <React.Suspense fallback={<LoadingComponent />}>
               <Cars />
+            </React.Suspense>
+          }
+        />
+        <Route
+          path="cars/:id"
+          element={
+            <React.Suspense fallback={<LoadingComponent />}>
+              <CarSingle />
+            </React.Suspense>
+          }
+        />
+        <Route
+          path="service/:id"
+          element={
+            <React.Suspense fallback={<LoadingComponent />}>
+              <ServiceSingle />
+            </React.Suspense>
+          }
+        />
+        <Route
+          path="sparepart/:id"
+          element={
+            <React.Suspense fallback={<LoadingComponent />}>
+              <SparepartSingle />
             </React.Suspense>
           }
         />

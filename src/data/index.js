@@ -41,3 +41,60 @@ export const cars = [
     price: 4000000,
   },
 ];
+
+export const services = [
+  {
+    id: 1,
+    name: "paket service honda jazz",
+    description: "lorem ipsum",
+    price: "800000",
+  },
+  {
+    id: 2,
+    name: "paket service honda jazz",
+    description: "lorem ipsum",
+    price: "800000",
+  },
+  {
+    id: 3,
+    name: "paket service honda jazz",
+    description: "lorem ipsum",
+    price: "800000",
+  },
+  {
+    id: 4,
+    name: "paket service honda jazz",
+    description: "lorem ipsum",
+    price: "800000",
+  },
+  {
+    id: 5,
+    name: "paket service honda jazz",
+    description: "lorem ipsum",
+    price: "800000",
+  },
+  {
+    id: 6,
+    name: "paket service honda jazz",
+    description: "lorem ipsum",
+    price: "800000",
+  },
+  {
+    id: 7,
+    name: "paket service honda jazz",
+    description: "lorem ipsum",
+    price: "800000",
+  },
+  {
+    id: 8,
+    name: "paket service honda jazz",
+    description: "lorem ipsum",
+    price: "800000",
+  },
+  {
+    id: 9,
+    name: "paket service honda jazz",
+    description: "lorem ipsum",
+    price: "800000",
+  },
+];

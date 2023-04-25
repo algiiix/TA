@@ -67,7 +67,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="bg-black text-white w-full h-20 flex items-center justify-between px-10 lg:px-32">
+    <div className="bg-black sticky top-0 left-0 text-white w-full h-20 flex items-center justify-between px-10 lg:px-32">
       <Link to="/">
         <h1 className="font-semibold capitalize text-lg lg:text-xl">
           bengkel virly motor
